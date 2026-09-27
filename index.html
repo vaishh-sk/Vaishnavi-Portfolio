@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaishnavi | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Vaishnavi</div>
+    <div class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#about">Approach</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact" class="btn-primary">Contact Me</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hey, I'm Vaishnavi.</h1>
+      <p class="hero-sub">I'm a Computer Science Engineering student building clean terminal tools, accessible tech, and responsive web experiences.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-secondary">Explore Projects</a>
+        <a href="https://github.com/vaishh-sk" target="_blank" class="btn-outline">GitHub Profile</a>
+      </div>
+    </div>
+    <div class="hero-image-wrapper">
+  <img src="profile.jpeg" alt="Vaishnavi" class="hero-image">
+    </div>
+  </section>
+
+  <!-- Approach / Engineering Mindset (Adree Layout) -->
+  <section id="about" class="approach-section">
+    <div class="approach-container">
+      
+      <!-- Left Column: Clean Image -->
+      <div class="approach-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Workspace Aesthetic" class="approach-img">
+      </div>
+
+      <!-- Right Column: Heading + Content Stacked -->
+      <div class="approach-content">
+        <h2 class="section-title">My Approach</h2>
+
+        <div class="approach-card card-sage">
+          <div class="approach-card-header">
+            <i class="fa-solid fa-universal-access"></i>
+            <h3>ACCESSIBLE & IMPACTFUL</h3>
+          </div>
+          <p>I focus on technology that solves real everyday challenges—from assistive regional speech solutions to clean, user-focused digital interfaces.</p>
+        </div>
+
+        <div class="approach-card card-sand">
+          <div class="approach-card-header">
+            <i class="fa-solid fa-cubes"></i>
+            <h3>STRUCTURED & MODULAR</h3>
+          </div>
+          <p>Whether writing Python backend logic or querying relational databases, I emphasize writing organized, maintainable, and efficient code.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-tag">System Tool</div>
+        <h3>CLI Room Scheduling System</h3>
+        <p>A Python-based command line interface application designed to manage room reservations, prevent double-bookings, and streamline log management.</p>
+        <div class="tech-stack">
+          <span>Python</span>
+          <span>CLI</span>
+          <span>Data Structures</span>
+        </div>
+        <a href="https://github.com/vaishh-sk/room-scheduling-system-cpp" class="project-link" target="_blank">View on GitHub &rarr;</a>
+      </div>
+
+      <div class="project-card">
+  <div class="project-tag">Frontend Web</div>
+  <h3>Personal Developer Portfolio</h3>
+  <p>A modern personal portfolio built from scratch with custom CSS grid and flexbox layouts...</p>
+        <div class="tech-stack">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>GitHub Pages</span>
+        </div>
+        <a href="https://github.com" class="project-link" target="_blank">View Repository &rarr;</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag">Assistive Tech</div>
+        <h3>Vaani Braille Concept</h3>
+        <p>An assistive technology concept translating regional language voice commands into tactile Braille outputs and audio feedback for visual accessibility.</p>
+        <div class="tech-stack">
+          <span>Speech Recognition</span>
+          <span>Accessibility</span>
+          <span>Python</span>
+        </div>
+        <a href="#contact" class="project-link">Learn More &rarr;</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-container">
+      <details>
+        <summary>What are your core technical strengths?</summary>
+        <p>My primary expertise includes Python, SQL database operations, Data Structures & Algorithms, and modern frontend web development with HTML and CSS.</p>
+      </details>
+      <details>
+        <summary>Are you open to hackathons and software collaborations?</summary>
+        <p>Yes! I love rapid-prototyping events, hackathons, and collaborating on open-source or team engineering projects.</p>
+      </details>
+      <details>
+        <summary>Where can I view your problem-solving activity?</summary>
+        <p>You can check out my source code repositories on GitHub and follow my algorithmic practice on LeetCode.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="contact-card">
+      <h2>Let's Connect!</h2>
+      <p>I'm always interested in collaborative builds, hackathons, and technical opportunities.</p>
+
+      <!-- Styled Direct Contact Pills (Spaced & Clean) -->
+      <div class="contact-details">
+        <a href="mailto:vaishnavikonnurkar@gmail.com" class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>vaishnavikonnurkar@gmail.com</span>
+        </a>
+        <a href="tel:+919972018894" class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <span>+91 99720 18894</span>
+        </a>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="contact-links">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vaishnavikonnurkar@gmail.com" target="_blank" class="btn-outline">
+          <i class="fa-solid fa-paper-plane"></i> Send an Email
+        </a>
+        <a href="https://github.com/vaishh-sk" target="_blank" class="btn-outline">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/vaishnavi-konnurkar-40b26a32a" target="_blank" class="btn-outline">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://instagram.com/vaishhv_03" target="_blank" class="btn-outline">
+          <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Footer -->
+  <footer>
+    <p>&copy; 2026 Vaishnavi Konnurkar &middot; Driven by curiosity & code</p>
+  </footer>
+
+</body>
+</html>
